@@ -1,0 +1,15 @@
+
+# R / data / OS junk
+.Rhistory
+.RData
+.Rproj.user
+.DS_Store
+
+# Don't commit raw data (keep only small samples or data_description.md)
+data/*
+!data/data_description.md
+
+# Results can be regenerated
+results/*
+!results/.gitkeep
+!results/figures/.gitkeep
